@@ -1,0 +1,134 @@
+# PXS
+/.codemagic-secret.conf
+/tsconfig.json
+/tslint-to-eslint-config.log
+/yarn.lock
+/dynatrace.config.js
+/packager/**/.eslintrc
+/packager/**/.jshintrc
+/packager/**/.gitlab-ci.yml
+/packager/**/download-assets.js
+/packager/**/proxy.conf.json
+sonar-project.properties-backup
+tsconfig-backup.json
+scripts/dynatrace/sourcemaps
+scripts/dynatrace/.codemagic_user_token
+
+scripts/bitrise-call.sh
+scripts/bitrise-check.sh
+scripts/cancel-bitrise-job.sh
+scripts/cancel-bitrise-jobs.sh
+bitrise.yml
+.gitlab-ci.yml
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+fabric.properties
+*.iml
+*.hprof
+
+# Flipper fix release file
+# https://github.com/facebook/flipper/pull/1329
+android/app/src/release/java/com/facebook/flipper/reactnative/FlipperPackage.java
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# Flow-coverage
+flow-coverage/
+
+# jest
+coverage/
+jest_html_reporters.html
+jest-html-reporters-attach
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+/vendor/bundle/
+
+# Bundle artifact
+*.jsbundle
+
+# webstorm editor config
+.editorconfig
+
+.vscode/
+
+# Sonar
+.scannerwork
+android/app/fabric.properties
+test-report.xml
+
+# audit
+yarn-outdated.md
+yarn-outdated.html
+yarn-audit.html
+yarn-audit.txt
+ios/app_folder.txt
+local.log
+
+# used to launch E2E tests
+ios/mypx_app_folder.txt
+ios/scarlet_app_folder.txt
+
+e2e/
+
+# test tool
+wallaby.js
+
+public/*.bundle
+public/*.map
+
+allure-results
+allure-results-ios
+allure-results-android
+allure-report
+/.run-rn/
+
+.cxx/

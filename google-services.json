@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248416743629",
+    "project_id": "raspmonitor-58c92",
+    "storage_bucket": "raspmonitor-58c92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248416743629:android:af3b46780f21e0c285b984",
+        "android_client_info": {
+          "package_name": "com.rasp.monitorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUflB8AeGix3mmEDeMgbegRZ0DGHdmbj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
